@@ -1,0 +1,13 @@
+{
+  "name": "ae-typed-expr",
+  "version": "0.1.0",
+  "description": "Writing After Effects Expression in TypeScript",
+  "types": "./index.d.ts",
+  "repository": "git@github.com:0918nobita/ae-typed-expr.git",
+  "author": "0918nobita <nobita.0918@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
+}

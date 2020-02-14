@@ -1,0 +1,11 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "author": "0918nobita",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^3.7.5",
+    "ae-typed-expr": "file:../package"
+  }
+}
