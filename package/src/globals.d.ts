@@ -35,8 +35,14 @@ declare function footage(name: string): Footage;
  */
 declare function posterizeTime(framesPerSecond: number): number;
 
+/**
+ * Converts the value of `t`, which defaults to the current composition time, to an integer number of frames.
+ * The number of frames per second is specified in the `fps` argument, which defaults to the frame rate of the current composition.
+ * The `isDuration` argument, which defaults to false, should be true if the `t` value represents a difference between two times instead of an absolute time.
+ * Absolute times are rounded down toward negative infinity; durations are rounded away from zero (up for positive values).
+ */
 declare function timeToFrames(
-    time?: number,
+    t?: number,
     fps?: number,
     isDuration?: boolean
 ): number;
