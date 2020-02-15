@@ -4,7 +4,7 @@ function recFunc(coord: Coord): Coord {
     return [coord[0] + 3, coord[1] + 1];
 }
 
-const currentFrame: number = timeToFrames(time);
+const currentFrame = timeToFrames(time);
 
 let coord = value as Coord;
 
