@@ -20,6 +20,15 @@
 
   "private": true,
 
+  "files": [
+    "./src/*",
+    "./tsconfig.json",
+    "./package.json",
+    "./yarn.lock",
+    "../README.md",
+    "../LICENSE"
+  ],
+
   "types": "./src/index",
 
   "scripts": {
