@@ -1,37 +1,3 @@
-declare class Camera {
-    private _: 'camera';
-}
-
-/** Composition */
-declare class Comp {
-    private _: 'comp';
-
-    /** Returns the composition width, in pixels. */
-    width: number;
-
-    /** Returns the composition height, in pixels. */
-    height: number;
-
-    /** Returns the composition duration, in seconds. */
-    duration: number;
-}
-
-declare class Footage {
-    private _: 'footage';
-}
-
-declare class Layer {
-    private _: 'layer';
-}
-
-declare class Light {
-    private _: 'light';
-}
-
-declare class Property {
-    private _: 'property';
-}
-
 /** Returns the project color depth value. */
 declare const colorDepth: number;
 
@@ -50,8 +16,12 @@ declare const thisProperty: Property;
 /** Represents the composition time, in seconds, at which the expresion is being evaluated. */
 declare const time: number;
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 /** Represents the value at the current time for the property containing the expression. */
 declare const value: number | any[] | string;
+
+/* eslint-enable @typescript-eslint/no-explicit-any */
 
 /** Retrieves another composition by name. */
 declare function comp(name: string): Comp;
