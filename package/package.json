@@ -1,16 +1,32 @@
 {
   "name": "ae-typed-expr",
   "version": "0.1.0",
+
+  "keywords": [
+    "after effects",
+    "typescript"
+  ],
   "description": "Writing After Effects Expression in TypeScript",
-  "types": "./src/index",
+  "homepage": "https://github.com/0918nobita/ae-typed-expr",
+  "bugs": {
+    "url": "https://github.com/0918nobita/ae-typed-expr/issues"
+  },
   "repository": "git@github.com:0918nobita/ae-typed-expr.git",
   "author": "0918nobita <nobita.0918@gmail.com>",
+  "contributors": [
+    "0918nobita <nobita.0918@gmail.com>"
+  ],
   "license": "MIT",
+
   "private": true,
+
+  "types": "./src/index",
+
   "scripts": {
     "lint": "eslint ./src/**/*.d.ts",
     "format": "eslint --fix ./src/**/*.d.ts"
   },
+
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.19.2",
     "@typescript-eslint/parser": "^2.19.2",
