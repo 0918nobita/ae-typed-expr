@@ -1,1 +1,1 @@
-[thisComp.width / 2, thisComp.height / 2]
+[thisComp.width / 2, thisComp.height / 2];
