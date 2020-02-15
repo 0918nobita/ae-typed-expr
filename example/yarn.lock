@@ -81,10 +81,8 @@ acorn@^7.1.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.0.tgz#949d36f2c292535da602283586c2477c57eb2d6c"
   integrity sha512-kL5CuoXA/dgxlBbVrflsflzQ3PAas7RYZB52NOm/6839iVYJgKMJ3cQJD+t2i5+qFa8h3MDpEOJiS64E8JLnSQ==
 
-ae-typed-expr@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/ae-typed-expr/-/ae-typed-expr-0.1.3.tgz#90d088f61cd7ca68b6947e0bd043fadb2358706a"
-  integrity sha512-xpu9ps8CwQrvGM1QMtC5QVzNWGXYQ72rTS/cgGEYjdFmLQ5leSHAMucE5XenI/bGcT91/5nrp+giA97KHt5Tkg==
+"ae-typed-expr@file:..":
+  version "0.1.4"
 
 ajv@^6.10.0, ajv@^6.10.2:
   version "6.11.0"
