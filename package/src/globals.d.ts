@@ -34,3 +34,9 @@ declare function footage(name: string): Footage;
  * This expression allows you to set the frame rate for a property to be lower than the frame rate of the composition.
  */
 declare function posterizeTime(framesPerSecond: number): number;
+
+declare function timeToFrames(
+    time?: number,
+    fps?: number,
+    isDuration?: boolean
+): number;
