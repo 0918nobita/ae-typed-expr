@@ -1,4 +1,4 @@
-interface Transform {
+interface Group {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     position: Property<any>;
 }
@@ -6,5 +6,5 @@ interface Transform {
 declare class Layer {
     private _: 'layer';
 
-    readonly transform: Transform;
+    readonly transform: Group;
 }
