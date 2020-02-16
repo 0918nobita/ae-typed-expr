@@ -6,5 +6,5 @@ interface Transform {
 declare class Layer {
     private _: 'layer';
 
-    transform: Transform;
+    readonly transform: Transform;
 }
