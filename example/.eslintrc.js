@@ -5,6 +5,7 @@ module.exports = {
         'prettier/@typescript-eslint',
         'plugin:prettier/recommended',
     ],
+    ignorePatterns: ['dest/', 'node_modules/'],
     parser: '@typescript-eslint/parser',
     parserOptions: {
         project: './tsconfig.json',
