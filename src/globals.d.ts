@@ -11,17 +11,15 @@ declare const thisComp: Comp;
 declare const thisLayer: Layer | Light | Camera;
 
 /** Represents the property containing the expression. */
-declare const thisProperty: Property;
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+declare const thisProperty: Property<any>;
 
 /** Represents the composition time, in seconds, at which the expresion is being evaluated. */
 declare const time: number;
 
-/* eslint-disable @typescript-eslint/no-explicit-any */
-
 /** Represents the value at the current time for the property containing the expression. */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 declare const value: number | any[] | string;
-
-/* eslint-enable @typescript-eslint/no-explicit-any */
 
 /** Retrieves another composition by name. */
 declare function comp(name: string): Comp;
